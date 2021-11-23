@@ -19,8 +19,8 @@ class Settings(BaseSettings):
     USERS_OPEN_REGISTRATION: bool = False
 
     # S3 related
-    AWS_ACCESS_KEY_ID: str = "AKIA455JKBQTBCC5WVA7"
-    AWS_SECRET_ACCESS_KEY: str = "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"
+    AWS_ACCESS_KEY_ID: str = "AKIA27ROSB3XWIQUHEFX"
+    AWS_SECRET_ACCESS_KEY: str = "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"
     REGION: str = "us-west-2"
 
     class Config:
