@@ -16,5 +16,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: rapid
       MYSQL_DATABASE: rapid_data_hub
-#    volumes:
-#      - /opt/persist/mysql/data:/var/lib/mysql
+    volumes:
+      - /opt/persist/mysql/data:/var/lib/mysql
